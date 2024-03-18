@@ -1,0 +1,11 @@
+return {
+  "oahlen/iceberg.nvim",
+  event = "VeryLazy",
+  -- Configure LazyVim to load gruvbox
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "iceberg",
+    },
+  },
+}
