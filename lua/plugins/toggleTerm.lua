@@ -8,4 +8,3 @@ return {
     autochdir = true,
   },
 }
-
