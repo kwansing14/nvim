@@ -4,3 +4,4 @@
 
 vim.keymap.set({ "n", "x" }, "<leader>do", "<cmd>DiffviewOpen<cr>")
 vim.keymap.set({ "n", "x" }, "<leader>dx", "<cmd>DiffviewClose<cr>")
+vim.keymap.set({ "n", "x" }, "<leader>mpv", "<cmd>MpvToggle<cr>")
