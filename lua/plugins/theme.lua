@@ -12,7 +12,12 @@ return {
     event = "VeryLazy", -- Configure LazyVim to load gruvbox
   },
   {
+    "oxfist/night-owl.nvim",
+    event = "VeryLazy",
+  },
+  {
     "LazyVim/LazyVim",
-    opts = { colorscheme = "modus" },
+    -- opts = { colorscheme = "modus" },
+    opts = { colorscheme = "night-owl" },
   },
 }
