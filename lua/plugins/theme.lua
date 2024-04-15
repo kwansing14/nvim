@@ -15,6 +15,7 @@ return {
     "oxfist/night-owl.nvim",
     event = "VeryLazy",
   },
+  { "doki-theme/doki-theme-vim", event = "VeryLazy" },
   {
     "LazyVim/LazyVim",
     -- opts = { colorscheme = "modus" },

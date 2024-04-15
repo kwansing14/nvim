@@ -3,7 +3,7 @@ return {
   event = "VeryLazy",
   opts = {
     default_args = { -- Default args prepended to the arg-list for the listed commands
-      DiffviewOpen = { "--imply-local" },
+      -- DiffviewOpen = { "--imply-local" },
     },
   },
   -- hi DiffAdd    guibg=#283B4D guifg=NONE
