@@ -12,7 +12,4 @@ vim.keymap.set("n", "<leader>dv", function()
   else
     vim.cmd("DiffviewClose")
   end
-end)
-
--- test 1
--- test 2
+end, { desc = "DiffView" })
