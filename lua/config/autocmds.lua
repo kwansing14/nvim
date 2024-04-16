@@ -10,3 +10,14 @@ vim.api.nvim_create_autocmd("VimEnter", {
     vim.cmd("hi DiffText   guibg=#365069 guifg=NONE")
   end,
 })
+
+vim.api.nvim_create_user_command("Test", 'echo "It works!"', {})
+
+vim.api.nvim_create_user_command("Upper", function(opts)
+  print(string.upper(opts.fargs[1]))
+end, { nargs = 1 })
+
+vim.api.nvim_create_user_command("Dt", function(opts)
+  vim.cmd("!git checkout " .. opts.fargs[1])
+  vim.cmd("DiffviewOpen origin/develop...")
+end, { nargs = 1 })
