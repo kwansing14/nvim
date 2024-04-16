@@ -5,3 +5,14 @@
 vim.keymap.set({ "n", "x" }, "<leader>do", "<cmd>DiffviewOpen<cr>")
 vim.keymap.set({ "n", "x" }, "<leader>dx", "<cmd>DiffviewClose<cr>")
 vim.keymap.set({ "n", "x" }, "<leader>mpv", "<cmd>MpvToggle<cr>")
+
+vim.keymap.set("n", "<leader>dv", function()
+  if next(require("diffview.lib").views) == nil then
+    vim.cmd("DiffviewOpen")
+  else
+    vim.cmd("DiffviewClose")
+  end
+end)
+
+-- test 1
+-- test 2
