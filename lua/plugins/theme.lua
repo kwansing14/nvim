@@ -17,8 +17,13 @@ return {
   },
   { "doki-theme/doki-theme-vim", event = "VeryLazy" },
   {
+    "olivercederborg/poimandres.nvim",
+    event = "VeryLazy",
+  },
+  {
     "LazyVim/LazyVim",
     -- opts = { colorscheme = "modus" },
-    opts = { colorscheme = "night-owl" },
+    -- opts = { colorscheme = "night-owl" },
+    opts = { colorscheme = "poimandres" },
   },
 }
