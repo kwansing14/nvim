@@ -24,6 +24,7 @@ return {
     "LazyVim/LazyVim",
     -- opts = { colorscheme = "modus" },
     -- opts = { colorscheme = "night-owl" },
-    opts = { colorscheme = "poimandres" },
+    -- opts = { colorscheme = "poimandres" },
+    opts = { colorscheme = "catppuccin" },
   },
 }
