@@ -21,9 +21,3 @@ vim.api.nvim_create_user_command("Dt", function(opts)
   vim.cmd("!git checkout " .. opts.fargs[1])
   vim.cmd("DiffviewOpen origin/develop...")
 end, { nargs = 1 })
-
-vim.filetype.add({
-  pattern = {
-    ["**.mdx"] = "tsx",
-  },
-})
