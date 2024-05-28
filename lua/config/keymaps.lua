@@ -16,3 +16,10 @@ vim.keymap.set("n", "<leader>dv", function()
 end, { desc = "DiffView" })
 
 vim.keymap.set("n", "gd", telescope_builtin.lsp_definitions) -- see definition and make edits in window
+
+-- basically make mdx into jsx, just like set ft=jsx
+vim.filetype.add({
+  extension = {
+    mdx = "jsx",
+  },
+})
