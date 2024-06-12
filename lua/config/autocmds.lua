@@ -4,10 +4,10 @@
 --
 vim.api.nvim_create_autocmd("VimEnter", {
   callback = function()
-    vim.cmd("hi DiffAdd    guibg=#283B4D guifg=NONE")
-    vim.cmd("hi DiffChange guibg=#283B4D guifg=NONE")
+    vim.cmd("hi DiffAdd    guibg=#14484A guifg=NONE")
     vim.cmd("hi DiffDelete guibg=#3C2C3C guifg=#4d384d")
-    vim.cmd("hi DiffText   guibg=#365069 guifg=NONE")
+    vim.cmd("hi DiffText   guibg=#14484A guifg=NONE")
+    vim.cmd("hi DiffChange guibg=#5a7e80 guifg=NONE")
   end,
 })
 
